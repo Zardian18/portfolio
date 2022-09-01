@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/z-logo-png-transparent.png">
+        </div>
+        <div class="main">
+            <ul class="navbar">
+                <li id="button"><a href="index.html">Home</a></li>
+                <li id="button"><a href="resume.html">Resume</a></li>
+                <li id="button"><a href="games.html">Games</a></li>
+                <li id="button" class="active"><a href="projects.html">Projects</a></li>
+                <li id="button"><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="projTitle">
+        <h1>PROJECTS</h1>
+    </div>
+    <div class="proj">
+        <div>
+            <b class="projName">Connan's Odyssey</b>
+        </div>
+        <p class="projInfo">
+            My first game for Android which is also available at Playstore, Connan's Odyssey is a platformer game with
+            15 unique levels. It has over 5 different playable character with each having unique sets of ability. There
+            are various enemy types as well. I also integrated ads in the game using unity monetization. I also created
+            playprefs for storing player coin data, current player level and character selected. I used different sprite
+            animations for each player state.
+            <br>
+            <br>
+            Link of the game:
+            <a target="_blank" class="gameLinkMine"
+                href="https://play.google.com/store/apps/details?id=com.Zardian.ConansOdyssey">Connan's Odyssey on
+                playstore.</a>
+        </p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="imageProj" src="Images/Connan.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="imageProj" src="Images/connan2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="imageProj" src="Images/connan3.jpg" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br><br><br>
+        <div>
+            <b class="projName">Packet Sniffer</b>
+        </div>
+        <p class="projInfo">
+            A packet sniffer moniters the data packets over a network. I, along with my friends made a packet sniffer
+            which does the same. But rather than capturing 1 way traffic, it captures 2 way traffic, both incoming and
+            outgoing. Then displays the data in the following header accordingly. The protocols used here are TCP, UDP
+            and ICMP. The data retured will be displayed on the terminal as their headers. Python3 and linux OS were
+            used for this
+            project.<br> Modules used were: Struct, sockets, argparse, coloroma and textwrap.
+            <br><br>
+            Link of the project:
+            <a target="_blank" class="gameLinkMine" href="https://github.com/Gaurav9912/Packet-Sniffer">Github repo.</a>
+        </p>
+        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="imageProj" src="Images/sniffer2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="imageProj" src="Images/sniffer1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="imageProj" src="Images/sniffer3.png" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </div>
+    <br>
+    <div class="foot">
+        <p>&#169 Made with &#9829 by HARDDIK</p>
+    </div>
+
+</body>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+</html>

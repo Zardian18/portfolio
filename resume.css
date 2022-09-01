@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.resume{
+
+
+    color: white;
+    text-align: center;
+}
+
+.resume h1{
+    font-size: 56px;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.summary{
+    color: white;
+    font-size: 36px;
+    margin-left: 10vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 5vh;
+    font-weight: 800;
+    transition: 0.5s ease;
+    border: 3px solid transparent;
+    padding: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-radius: 20px;
+}
+.summary:hover{
+
+    transition: 0.5s ease;
+    border: 3px solid rgb(123, 255, 255);
+    border-radius: 20px;
+    transform: scale(1.05,1.05);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    box-shadow: 0px 0px 25px rgb(123, 255, 255);
+    backdrop-filter: blur(5px);
+    /* font-size: 50px; */
+
+}
+.summaryContent p{
+    transition: 0.5s ease;
+}
+
+.summaryContent{
+    color: white;
+    font-size: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    transition: 0.5s ease;
+    margin-bottom: 5vh;
+}
+
+
+.summary h2 , .education h2, .skills h2, .certificates h2 .internship h2{
+    text-align: left;
+    font-size: 36px;
+    
+}
+/* .summary h2:hover , .education h2:hover, .skills h2:hover, .certificates h2:hover .internship h2:hover{
+    text-decoration: underline;
+} */
+.summary p {
+    position:relative;
+    text-align: left;
+    margin-right: 10vw;
+}
+
+
+.list1{
+    color: white;
+    font-size: 20px;
+    padding: 1vh;
+    transition: 0.5s ease;
+}
+
+.list1:hover{
+    transform: scaleX(1.05);
+}
+
+.internship{
+    color: white;
+    font-size: 36px;
+    margin-left: 10vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 800;
+    transition: 0.5s ease;
+    border: 3px solid transparent;
+    padding: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-radius: 20px;
+}
+.internship:hover{
+    transition: 0.5s ease;
+    border: 3px solid rgb(123, 255, 255);
+    border-radius: 20px;
+    transform: scale(1.05,1.05);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    box-shadow: 0px 0px 25px rgb(123, 255, 255);
+    backdrop-filter: blur(5px);
+}
+
+.interns{
+    position: relative;
+    padding-top: 5vh;
+    transition: 0.5s ease;
+}
+.intern{
+    transition: 0.5s ease;
+}
+
+
+.internships{
+    color: white;
+    font-size: 20px;
+    padding-left: 10vw;
+    padding-right: 3vw;
+    padding-top: 5vw;
+
+
+}
+
+
+.tooltiptext {
+    display: none;
+    z-index: 1;
+    color: white;
+    transition: 0.5s ease;
+
+}
+
+
+#i1{
+    margin-right: 68vw;
+    margin-top: 20px;
+
+}
+
+.certi:hover{
+    text-decoration: underline;
+}
+
+.titleInt{
+    padding-top: 30vh;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}

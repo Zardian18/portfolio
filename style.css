@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://wallpapercave.com/wp/wp2362366.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    display:block;
+
+}
+.navbar{
+    list-style-type: none;
+    float: right;
+    margin-top: 3vh;
+    
+}
+.click{
+    background-color: transparent;
+    border: transparent;
+
+}
+.navbar li{
+    display: inline-block;
+    margin-top: 6px;
+}
+.navbar li.active a{
+    background-color: white;
+    color: black;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: 2px solid transparent;
+    transition: 0.5s ease;
+    padding: 1vw;
+}
+.navbar li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 7vw;
+    height: auto;
+}
+.main{
+    max-width: 1400px;
+    margin: auto;
+    
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+.button{
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.content{
+    padding-top: 25vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    color: white;
+    font-size: 36px;
+
+}
+#description{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: white;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+::-webkit-scrollbar {
+    width: 14px; 
+    color: transparent;
+}
+
+::-webkit-scrollbar-track { 
+    background: rgba(146, 199, 248, 0);
+}
+
+::-webkit-scrollbar-thumb { 
+    background: rgba(7, 58, 105, 1);
+}
+
+::-webkit-scrollbar-thumb:hover { 
+    background: rgb(15, 122, 172);
+}
+
+.myInfo{
+
+    padding-top: 30vh;
+    color: white;
+    text-align: center;
+}
+.myInfo h1{
+    font-size: 72px;
+}
+.role{
+    float: left;
+    font-weight: 700;
+    transition: 0.5s ease;
+    height: 25px;
+    margin-left: 40vw;
+}
+.role:hover{
+    
+    background-color: white;
+    color: black;
+    transform: scale(1.05,1.05);
+}
+.role2{
+    float: right;
+    font-weight: 700;
+    transition: 0.5s ease;
+    height: 25px;
+    margin-right: 40vw;
+}
+.role2:hover{
+    
+    background-color: white;
+    color: black;
+    transform: scale(1.1,1.1);
+}
+.role3{
+    
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    transition: 0.5s ease;
+    border: 3px solid transparent;
+    padding: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-radius: 20px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+.role3:hover{
+    transition: 0.5s ease;
+    border: 3px solid rgb(123, 255, 255);
+    border-radius: 20px;
+    transform: scale(1.05,1.05);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    box-shadow: 0px 0px 25px rgb(123, 255, 255);
+    backdrop-filter: blur(5px);
+}
+
+
+
+.bottom-container{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;   /* Height of the footer */
+    text-align: center;
+    color: white;
+    
+}
+
+.projTitle h1{
+    padding-top: 20vh;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.proj{
+    padding-left: 10vh;
+    padding-top: 10vh;
+    color:  white;
+    font-size: 30px;
+}
+.projInfo{
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+    padding-right: 10vh;
+
+}
+.imageProj{
+    width: 70vw;
+    height: 25vw;
+    padding-left: 20vw;
+}
+.projName{
+    transition: 0.5s ease;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid transparent;
+    padding: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-radius: 20px;
+}
+.projName:hover{
+    transition: 0.5s ease;
+    border: 3px solid rgb(123, 255, 255);
+    border-radius: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    box-shadow: 0px 0px 25px rgb(123, 255, 255);
+    backdrop-filter: blur(5px);
+}
+.gameLinkMine{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+.gameLinkMine:hover{
+    transition: 0.5s ease;
+    color: blue;
+    background-color: white;
+}
+.foot{
+    text-align: center;
+    color: white;
+}
+.contactMe{
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.Contact{
+    color: white;
+    font-size: 20px;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.Contact2{
+    color: white;
+    font-size: 20px;
+    margin-top: 1vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.email{
+    color: white;
+    text-decoration: none;
+}
+.contactIcon{
+    height: 45px;
+    width: 45px;
+    border: 0px solid white;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 10px;
+    
+
+}
+.contactIcon img{
+    transition: 0.5s all ease-in-out;
+    width: 100%;
+}
+.contactIcon:hover img{
+    transform: scale(1.525);
+    transition:0.5s 
+    
+}
+.iconPadding{
+    padding-left: 10vw;
+}
