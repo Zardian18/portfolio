@@ -54,6 +54,14 @@
     color: white;
     font-size: 1.25rem;
     padding-left: 10vw;
+    padding-right: 10vw;
+    transition: 0.5s ease;
+    margin-bottom: 5vh;
+}
+.summaryContent3{
+    color: white;
+    font-size: 1.25rem;
+    padding-left: 10vw;
     padding-right: 0vw;
     transition: 0.5s ease;
     margin-bottom: 5vh;
