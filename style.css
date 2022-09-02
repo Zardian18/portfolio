@@ -129,7 +129,7 @@ body{
     text-align: center;
 }
 .myInfo h1{
-    font-size: 7rem;
+    font-size: 5rem;
 }
 .role{
     float: left;
@@ -191,7 +191,7 @@ body{
 
 .bottom-container{
     
-    margin-top: 28vh;
+    padding-top: 20vh;
     text-align: center;
     color: white;
     
@@ -251,7 +251,7 @@ body{
     color: blue;
     background-color: white;
 }
-.foot{
+.foot, .foot2{
     text-align: center;
     color: white;
 }
@@ -324,7 +324,7 @@ body{
         font-size: 40%;
     }
     .bottom-container{
-        margin-top: 40vh;
+        margin-top: 30vh;
     }
     .role{
         margin-left: 20vw;
@@ -348,10 +348,10 @@ body{
 }
 @media(min-width:80rem){
     
-    
     .bottom-container{
         margin-top: 10vh;
     }
+    
 }
 @media only screen and (min-width:50rem) and (max-width:80rem){
 
@@ -372,16 +372,10 @@ body{
     
     
 }
-@media only screen and (min-width:50rem) and (max-width:80rem){
+@media(max-width:80rem){
 
     .foot{
-        padding-top: 40vh;
+        padding-top: 20vh;
         
-    }
-}
-@media(max-width:49em){
-
-    .foot{
-        padding-top: 40vh;
     }
 }

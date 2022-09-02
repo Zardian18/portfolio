@@ -99,3 +99,11 @@
         padding-top: 23vh;
     }
 }
+
+@media(max-width:80rem){
+
+    .foot2{
+        padding-top: 20vh;
+        
+    }
+}
